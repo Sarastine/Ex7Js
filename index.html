@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/Ex7Js.css">
+        <title>Javascript Exercice 7</title>
+    </head>
+    <body>
+        <!--Demander à l’utilisateur sa pointure et son année de naissance. Créer une fonction qui fait les calculs suivants :
+    Multiplier la pointure par 2
+    Ajouter 5 au résultat
+    Multiplier le tout par 50
+    Soustraire l’année de naissance
+    Ajouter au tout 1766
+La fonction doit retourner le résultat. Tester avec votre date de naissance et votre pointure. Attention : n'utiliser qu'une seule variable de résultat.-->
+        <div class="container-fluid">
+            <h1>Javascript</h1>
+            <h2>Exercice 7</h2>
+            <form class="col-12">
+                <div class="row">
+                    <label>Votre pointure :</label><input type="number" name="ShoeSize" id="ShoeSize" placeholder="Pointure">
+                </div>
+                <div class="row">
+                    <label>Votre année de naissance :</label><input type="number" name="Birthdate" id="Birthdate" placeholder="AAAA">
+                </div>
+                <button type="submit" name="Valider" id="Valider" class="Button" onclick="Compute()">Valider</button>
+            </form>
+        </div>
+        <script type="text/javascript" src="js/Ex7Js.js"></script>
+    </body>
+</html>
